@@ -1,0 +1,31 @@
+.characters ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .characters li {
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .characters li:hover {
+    transform: scale(1.05);
+  }
+  
+  .characters img {
+    max-width: 100px;
+    border-radius: 50%;
+  }
+  
+  .characters p {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  .characters-name{
+    max-width: 100px;
+  }

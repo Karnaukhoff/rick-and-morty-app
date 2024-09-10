@@ -1,0 +1,42 @@
+.episodes {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    min-height: 100vh; 
+    text-align: center;
+  }
+  
+  .episodes-container {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+  }
+  
+  .episode-item {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s;
+    width: 300px;
+  }
+  
+  .episode-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .episodes h2 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .episodes p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+  }
